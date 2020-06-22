@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Table, Button, Modal, ModalHeader, ModalBody, ModalFooter, FormGroup, Label, Input } from 'reactstrap';
 import axios from 'axios';
-
 class App extends Component {
   state = {
     employees: [],
@@ -21,7 +20,6 @@ class App extends Component {
       employee_age: ''
     }
   }
-
   componentWillMount() {
     this.refreshList();
   }
